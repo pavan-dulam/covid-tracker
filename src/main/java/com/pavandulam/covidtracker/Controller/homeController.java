@@ -26,7 +26,7 @@ public class homeController {
 		model.addAttribute("totalReportedCases",totalReportedCases );
 		model.addAttribute("totalNewCases",totalNewCases );
 		//model.addAttribute("totalNewCases",allstats.g);
-		return "home";
+		return "index";
 	}
 
 }
