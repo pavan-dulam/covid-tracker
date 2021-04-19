@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-3.8.1.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -15,9 +15,13 @@
 	<name>covid-tracker</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
+<<<<<<< HEAD
 		<java.version>11</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   <maven.compiler.release>13</maven.compiler.release>
+=======
+		
+>>>>>>> 752d84075c34dbd3233cc039a07a83b7baa386e9
 	</properties>
 	<dependencies>
 		<dependency>
@@ -60,10 +64,18 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
+<<<<<<< HEAD
                 <source>11</source>
                 <target>11</target>
             </configuration>
+=======
+                			<source>1.8</source>
+                			<target>1.8</target>
+            			</configuration>
+
+>>>>>>> 752d84075c34dbd3233cc039a07a83b7baa386e9
 			</plugin>
+			
 		</plugins>
 	</build>
 
